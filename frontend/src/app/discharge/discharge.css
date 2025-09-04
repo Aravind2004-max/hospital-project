@@ -1,0 +1,38 @@
+.deleteDiv{
+    text-align: center;
+    margin-top: 50px;
+    background-color: lightgreen;
+    width: fit-content;
+    position: relative;
+    left: 40%;
+    padding: 50px;
+}
+.deleteDiv label{
+    margin-right: 145px;
+    font-weight: bold;
+}
+.deleteDiv input{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    border-color: transparent;
+    width: 200px;
+}
+.deleteDiv button{
+    padding: 5px;
+    border-radius: 5px;
+    border-color: transparent;
+    font-weight: bold;
+}
+.deleteDiv button:hover{
+    background-color: lightblue;
+}
+.headerDiv{
+    text-align: center;
+    position: relative;
+    left: 18px;
+    top: 10px;
+}
+.footerDiv{
+    text-align: center;
+}

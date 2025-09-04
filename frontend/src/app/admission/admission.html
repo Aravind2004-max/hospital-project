@@ -1,0 +1,16 @@
+<header>
+    <div class="admissionDiv">
+        <h1>{{sts}}</h1>
+        <form (ngSubmit)="onSubmit(patientForm)" #patientForm = "ngForm">
+            <label for="id">Patient ID</label><br>
+            <input type="number" placeholder="enter" [(ngModel)]="datas.id" name="id"><br><br>
+            <label for="name">Patient Name</label><br>
+            <input type="text" placeholder="enter" [(ngModel)]="datas.name" name="name"><br><br>
+            <label for="diseases">Patient Diseases</label><br>
+            <input type="text" placeholder="enter" [(ngModel)]="datas.diseases" name="diseases"><br><br>
+            <button type="submit" [disabled]="!patientForm.valid" class="submit">Save</button>
+            <button type="button" (click)="update()" class="update">Update</button>
+            <button type="button" (click)="patientDetails()" class="view">View Details</button>
+        </form>
+    </div>
+</header>

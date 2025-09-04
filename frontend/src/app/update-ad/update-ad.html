@@ -1,0 +1,12 @@
+<header>
+    <div class="updateDiv">
+        <h1>{{sts}}</h1>
+        <label for="">Patien ID</label><br>
+        <input type="number" placeholder="enter" name="id" [(ngModel)]="datas.id"><br><br>
+        <label for="">Patien Name</label><br>
+        <input type="text" placeholder="enter" name="name" [(ngModel)]="datas.name"><br><br>
+        <label for="">Patient Diseases</label><br>
+        <input type="text" placeholder="enter" name="diseases" [(ngModel)]="datas.diseases"><br><br>
+        <button (click)="onUpdate()">Update</button>
+   </div>
+</header>

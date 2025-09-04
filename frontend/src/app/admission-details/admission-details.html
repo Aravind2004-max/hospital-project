@@ -1,0 +1,18 @@
+<header>
+    <div class="detailsDiv">
+        <table border="2">
+            <thead>
+                <th>Patient ID</th>
+                <th>Patient Name</th>
+                <th>Patient Diseases</th>
+            </thead>
+            <tbody>
+                <tr *ngFor="let patient of patients">
+                    <td>{{patient.id}}</td>
+                    <td>{{patient.name}}</td>
+                    <td>{{patient.diseases}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</header>

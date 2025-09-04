@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.updateDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.updateDiv input{
+    width: 300px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.updateDiv label{
+   position: relative;
+   right: 100px;
+}
+.updateDiv button{
+    padding: 10px;
+    border-radius: 10px;
+    border-color: transparent;
+    font-size: larger;
+    font-weight: bold;
+}
+.updateDiv button:hover{
+   background-color: lightgreen;
+}

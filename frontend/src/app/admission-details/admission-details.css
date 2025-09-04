@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.detailsDiv{
+   display: inline-flex;
+   position: relative;
+   left: 38%;
+   top: 70px;
+}
+.detailsDiv thead{
+    background-color: lightgreen;
+}
