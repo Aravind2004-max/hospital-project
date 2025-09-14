@@ -4,8 +4,8 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --prod --output-hashing=all",
-    "watch": "ng build --configuration production --output-hashing=all",
+    "build": "ng build --configuration production --output-hashing=all",
+    "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
   "prettier": {
