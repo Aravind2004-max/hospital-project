@@ -16,7 +16,7 @@
   "main": "Server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "cd frontend && npm install && npm run build --configuration production --output-hashing=all && cpx \"dist/frontend/browser/**/*\" ../backend/dist/frontend",
+    "build": "cd frontend && npm install && npm run build  && cpx \"dist/frontend/browser/**/*\" ../backend/dist/frontend",
     "start": "cd backend && npm install && node Server.js"
   },
   "dependencies": {
