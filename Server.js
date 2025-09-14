@@ -1,6 +1,6 @@
 const exp = require("express");
 const mongo = require("mongoose");
-const routes = require("../backend/routes/hospitalRoutes");
+const routes = require("../hospital/backend/routes");
 const cors = require("cors");
 const port = process.env.port || 3000;
 const app = exp();
