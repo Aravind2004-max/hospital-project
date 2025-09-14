@@ -3,7 +3,7 @@ const mongo = require("mongoose");
 const routes = require("./routes/hospitalRoutes");
 const cors = require("cors");
 const path = require("path");
-const port = process.env.port || 3000;
+const port = process.env.PORT || 3000;
 const app = exp();
 
 //middlewares
@@ -11,7 +11,7 @@ app.use(exp.json());
 app.use(cors());
 app.use(exp.static(path.join(__dirname, '../frontend/dist/frontend')));
 
-app.get('/*', (req, res) => {
+app.get('/.*/', (req, res) => {
   res.sendFile(path.join(__dirname, '../frontend/dist/frontend/index.html'));
 });
 
