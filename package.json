@@ -16,7 +16,7 @@
   "main": "Server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "cd frontend && npm install && npm run build && cp -r frontend/dist/frontend backend/dist"
+    "build": "cd frontend && npm install && npm run build && xcopy /E /I frontend\\dist\\frontend backend\\dist\\frontend"
   },
   "dependencies": {
     "cors": "^2.8.5",
