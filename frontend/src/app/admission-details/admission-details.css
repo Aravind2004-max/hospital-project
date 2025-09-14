@@ -4,10 +4,14 @@
 }
 .detailsDiv{
    display: inline-flex;
-   position: relative;
-   left: 38%;
-   top: 70px;
+   position: absolute;
+   top: 25%;
+   left: 39%;
+   z-index: 2;
 }
 .detailsDiv thead{
+    background-color: green;
+}
+.table{
     background-color: lightgreen;
 }

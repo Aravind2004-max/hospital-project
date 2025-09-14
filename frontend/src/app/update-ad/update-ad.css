@@ -3,11 +3,17 @@
     padding: 0;
 }
 .updateDiv{
+    position: absolute;
+    top: 22%;
+    left: 38%;
+    z-index: 2;
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     margin-top: 20px;
+    background-color: lightgreen;
+    padding: 20px;
 }
 .updateDiv input{
     width: 300px;
