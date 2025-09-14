@@ -1,6 +1,5 @@
 <header>
     <div class="updateDiv">
-        <h1>{{sts}}</h1>
         <label for="">Patien ID</label><br>
         <input type="number" placeholder="enter" name="id" [(ngModel)]="datas.id"><br><br>
         <label for="">Patien Name</label><br>
@@ -10,3 +9,8 @@
         <button (click)="onUpdate()">Update</button>
    </div>
 </header>
+<footer>
+    <div class="status-div">
+        <h5>Status: {{sts}}</h5>
+    </div>
+</footer>

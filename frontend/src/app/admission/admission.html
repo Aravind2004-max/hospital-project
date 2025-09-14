@@ -1,6 +1,5 @@
 <header>
     <div class="admissionDiv">
-        <h1>{{sts}}</h1>
         <form (ngSubmit)="onSubmit(patientForm)" #patientForm = "ngForm">
             <label for="id">Patient ID</label><br>
             <input type="number" placeholder="enter" [(ngModel)]="datas.id" name="id"><br><br>
@@ -14,3 +13,8 @@
         </form>
     </div>
 </header>
+<footer>
+    <div class="messageDiv">
+        <h5>Status: {{sts}}</h5>
+    </div>
+</footer>

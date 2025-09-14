@@ -32,5 +32,11 @@
     font-weight: bold;
 }
 .updateDiv button:hover{
-   background-color: lightgreen;
+   background-color: blue;
+}
+.status-div{
+    position: absolute;
+    z-index: 2;
+    top: 15%;
+    left: 35%;
 }
