@@ -15,7 +15,8 @@
   "type": "commonjs",
   "main": "Server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "cd frontend && npm install && npm run build && cp -r frontend/dist/frontend backend/dist"
   },
   "dependencies": {
     "cors": "^2.8.5",
