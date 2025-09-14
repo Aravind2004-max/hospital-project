@@ -2,6 +2,7 @@ const exp = require("express");
 const mongo = require("mongoose");
 const routes = require("./routes/hospitalRoutes");
 const cors = require("cors");
+const path = require("path");
 const port = process.env.port || 3000;
 const app = exp();
 
