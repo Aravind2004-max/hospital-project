@@ -9,7 +9,7 @@ const app = exp();
 //middlewares
 app.use(exp.json());
 app.use(cors());
-app.use(express.static(path.join(__dirname, '../frontend/dist/frontend')));
+app.use(exp.static(path.join(__dirname, '../frontend/dist/frontend')));
 
 app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname, '../frontend/dist/frontend/index.html'));
